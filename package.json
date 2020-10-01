@@ -1,6 +1,6 @@
 {
   "name": "serverless-aws-js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "ping.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "serverless-mocha-plugin": "^1.12.0",
     "serverless-offline": "^6.8.0"
   }
 }
