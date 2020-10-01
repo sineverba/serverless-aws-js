@@ -6,9 +6,7 @@ module.exports.ping = async event => {
     body: JSON.stringify(
       {
         message: 'success',
-      },
-      null,
-      2
+      }
     ),
   };
 };
