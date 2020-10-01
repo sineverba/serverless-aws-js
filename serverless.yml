@@ -1,0 +1,23 @@
+service: serverless-aws-js
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: eu-central-1
+
+plugins:
+  - serverless-offline
+
+package:
+  exclude:
+    - node_modules/**
+
+functions:
+  ping:
+    handler: ping.ping
+    events:
+      - http:
+          path: /ping
+          method: get
+          cors: true
