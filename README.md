@@ -1,4 +1,9 @@
-# Serverless AWS Node / JS Example
+Serverless AWS Node / JS Example
+================================
+
+| CI / CD | Status |
+| ------- | ------ |
+| Circle CI | [![CircleCI](https://circleci.com/gh/sineverba/serverless-aws-js.svg?style=svg)](https://circleci.com/gh/sineverba/serverless-aws-js)
 
 ## Setup
 

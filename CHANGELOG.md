@@ -1,5 +1,6 @@
 # Next version
 + Add instructions for use sls per-project instead of globally
++ Add CircleCI
 
 ## 0.2.0
 
