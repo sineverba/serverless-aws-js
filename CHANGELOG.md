@@ -1,6 +1,7 @@
 # Next version
 + Add instructions for use sls per-project instead of globally
 + Add CircleCI
++ Add Semaphore
 
 ## 0.2.0
 
