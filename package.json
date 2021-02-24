@@ -1,15 +1,19 @@
 {
   "name": "serverless-aws-js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "ping.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sls": "serverless",
+    "test": "serverless invoke test"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "serverless-mocha-plugin": "^1.12.0",
     "serverless-offline": "^6.8.0"
+  },
+  "devDependencies": {
+    "serverless": "^2.26.0"
   }
 }
