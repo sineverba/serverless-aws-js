@@ -3,7 +3,8 @@ Serverless AWS Node / JS Example
 
 | CI / CD | Status |
 | ------- | ------ |
-| Circle CI | [![CircleCI](https://circleci.com/gh/sineverba/serverless-aws-js.svg?style=svg)](https://circleci.com/gh/sineverba/serverless-aws-js)
+| Circle CI | [![CircleCI](https://circleci.com/gh/sineverba/serverless-aws-js.svg?style=svg)](https://circleci.com/gh/sineverba/serverless-aws-js) |
+| Semaphore CI | [![Build Status](https://sineverba.semaphoreci.com/badges/serverless-aws-js/branches/master.svg)](https://sineverba.semaphoreci.com/projects/serverless-aws-js) |
 
 ## Setup
 
