@@ -11,9 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "serverless-mocha-plugin": "^1.12.0",
-    "serverless-offline": "^6.8.0"
+    "serverless-offline": "^8.5.0"
   },
   "devDependencies": {
-    "serverless": "^2.26.0"
+    "npm-check-updates": "^12.4.0",
+    "serverless": "^3.3.0"
   }
 }
