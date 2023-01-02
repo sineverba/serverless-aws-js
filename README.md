@@ -9,6 +9,7 @@ Serverless AWS Node / JS Example
 ## Setup
 
 ```shell
+$ nvm use # To use right node version
 $ npm install
 ```
 
