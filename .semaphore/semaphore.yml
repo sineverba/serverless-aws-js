@@ -12,6 +12,7 @@ blocks:
       jobs:
         - name: 'Install'
           commands:
+            - npm install npm@9.7.2
             - checkout
             - cache restore
             - npm ci
