@@ -3,11 +3,11 @@ jobs:
 
   test:
     docker:
-      - image: cimg/node:18.16.1
+      - image: cimg/node:20.10.0
 
     steps:
       - checkout
-      - run: npm install npm@9.7.2
+      - run: npm install npm@10.2.4
       - run: npm ci
       - run: npm run test
 
