@@ -12,7 +12,7 @@ blocks:
       jobs:
         - name: 'Install'
           commands:
-            - npm install npm@9.7.2
+            - npm install npm@10.2.4
             - checkout
             - cache restore
             - npm ci
@@ -28,7 +28,7 @@ blocks:
         - name: Test
           matrix:
             - env_var: NODE_VERSION
-              values: [ "14", "16", "18" ]
+              values: [ "14", "16", "18", "20" ]
           commands:
             - sem-version node $NODE_VERSION
             - node --version
