@@ -3,6 +3,7 @@
 + Upgrade dependencies
 + Upgrade dependencies
 + Upgrade dependencies
++ Upgrade dependencies
 
 ## 0.3.0
 + Add instructions for use sls per-project instead of globally
