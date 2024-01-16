@@ -1,4 +1,4 @@
-# Next version
+# 0.4.0
 + Upgrade dependencies
 + Upgrade dependencies
 + Upgrade dependencies
